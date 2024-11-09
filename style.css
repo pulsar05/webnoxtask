@@ -1,0 +1,1019 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
+background-image: url(https://www.online-cleaning-coach.com/wp-content/uploads/2020/03/ii.jpg);
+background-repeat: no-repeat;    
+width: 100%;
+height: 300px;
+
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 0;
+    
+    color: black;
+}
+
+
+.navbar div {
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+img {
+    margin-right: 10px;
+}
+
+
+.email, .phone, .social-media, .calculator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social-media img {
+    margin: 0 5px;
+}
+
+
+.calculator {
+    background-color: gray;
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    color:white;
+}
+
+
+@media (min-width: 645px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .phone, .email {
+        margin-left: 5%;
+    }
+
+    .social-media {
+        margin-left: auto;
+        margin-right: 5%;
+    }
+
+    .calculator {
+        margin-left: 0;
+        margin-right: 5%;
+    }
+}
+
+
+.Nav-bar {
+    display: flex;
+    align-items: center;
+    
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.Home-page {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+}
+
+.Home-page a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+.Home-page a:hover {
+    background-color: white;
+    color: black;
+}
+
+.Home-page a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+@media (min-width: 645px) {
+    .Home-page a {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+}
+ h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    margin-left: 7%;
+    background-color: gray;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: none;
+}
+.Professional, .fast, .Renew {
+background-color: aliceblue;
+padding: 20px;
+width: 290px;
+height: 150px;
+border-radius: 30px;
+margin-bottom: 20px;  
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.Professional img, .fast img, .Renew img {
+margin-bottom: 15px;
+}
+.contant-cleaning{
+display: flex;
+gap: 40px;
+margin-left: 10%;
+}
+
+
+@media (max-width: 768px) {
+.Professional, .fast, .Renew {
+width: 80%; 
+margin-left: 10%;  
+margin-top: 20px;
+}
+.Professional h4, .fast h4, .Renew h4 {
+font-size: 16px;
+}
+.Professional p, .fast p, .Renew p {
+font-size: 12px;
+text-align: center;
+}
+}
+
+
+@media (max-width: 480px) {
+.Professional, .fast, .Renew {
+width: 95%;  
+margin-left: 2.5%;
+padding: 15px;
+}
+.Professional h4, .fast h4, .Renew h4 {
+font-size: 14px;
+}
+.Professional p, .fast p, .Renew p {
+font-size: 10px;
+text-align: center;
+}
+}
+.para h4 {
+font-size: 40px;
+width: 400px;
+margin-left: 9%;
+}
+
+.para p {
+color: white;
+margin-left: 9%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 290px;
+}
+.washle{
+margin-left: -9%;
+}
+.washle p {
+width: 300px;
+color: white;
+}
+
+.washle span {
+font-size: larger;
+color: white;
+}
+
+.worlds p {
+width: 300px;
+color: white;
+}
+
+
+
+.contants {
+display: flex;
+gap: 15px;
+margin-left: 5%;
+flex-wrap: wrap; 
+justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {
+.para h4 {
+width: 80%; 
+font-size: 30px;
+margin-left: 10%;
+}
+
+.para p {
+width: 80%;
+font-size: 14px;
+margin-left: 10%;
+}
+
+.washle p {
+width: 80%; 
+font-size: 14px;
+}
+
+.worlds p {
+width: 80%;
+font-size: 14px;
+}
+
+.contants {
+flex-direction: column; 
+align-items: center;
+}
+}
+
+
+@media (max-width: 480px) {
+.para h4 {
+font-size: 24px;
+width: 90%;
+margin-left: 5%;
+}
+
+.para p {
+width: 90%;
+font-size: 12px;
+margin-left: 5%;
+}
+
+.washle p {
+width: 90%;
+font-size: 12px;
+}
+
+.worlds p {
+width: 90%;
+font-size: 12px;
+}
+}
+.choose{
+text-align: center;
+
+}
+.choose h4{
+color: gray;
+}
+.choose p{
+color: gray;
+width:500px ;
+margin-left: 27%;
+}
+
+.Professional-team img,
+.services img,
+.guarantee img {
+background-color: gray;
+width: 100px;
+height: 70px;
+border-radius: 50%;
+padding: 10px 5px;
+}
+
+.Professional-team p,
+.services p,
+.guarantee p {
+color: gray;
+width: 260px;
+font-size: small;
+}
+
+.team {
+display: flex;
+gap: 18px;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap; 
+}
+
+
+@media (max-width: 768px) {
+.team {
+flex-direction: column; 
+gap: 20px;
+}
+
+.Professional-team p,
+.services p,
+.guarantee p {
+width: 80%; 
+font-size: 14px;
+}
+
+.Professional-team img,
+.services img,
+.guarantee img {
+width: 80px; 
+height: 60px;
+}
+
+.Professional-team h3,
+.services h3,
+.guarantee h3 {
+font-size: 18px; 
+}
+}
+
+
+@media (max-width: 480px) {
+.Professional-team p,
+.services p,
+.guarantee p {
+width: 90%; 
+font-size: 12px;
+}
+
+.Professional-team img,
+.services img,
+.guarantee img {
+width: 60px; 
+height: 50px;
+}
+
+.Professional-team h3,
+.services h3,
+.guarantee h3 {
+font-size: 16px; 
+}
+}
+.image{
+background-color: orange;
+width: 500px;
+height: 400px;
+margin-left: 5%;
+border-radius: 15px;
+}
+
+.image-contant h6 {
+color: gray;
+}
+
+.image-contant h5 {
+font-size: larger;
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-contant p {
+color: gray;
+font-size: small;
+}
+
+.image-contant {
+background-color: antiquewhite;
+padding: 45px 30px;
+width: 600px;
+height: auto;
+align-items: center;
+border-radius: 30px;
+margin-left: 40%;
+margin-top: -20%;
+}
+
+
+.service-item {
+display: flex;
+align-items: center;
+gap: 10px;
+margin-top: 15px;
+}
+
+.service-item img {
+width: 24px;
+height: 24px;
+}
+
+
+@media (max-width: 768px) {
+.image-contant {
+width: 80%;
+margin-left: 10%;
+padding: 30px;
+border-radius: 20px;
+text-align: center;
+}
+
+.image-contant h5 {
+font-size: 24px;
+}
+
+.image-contant h6 {
+font-size: 18px;
+}
+
+.image-contant p {
+font-size: 14px;
+}
+
+.service-item img {
+width: 20px;
+height: 20px;
+}
+}
+
+
+@media (max-width: 480px) {
+.image-contant {
+width: 90%;
+margin-left: 5%;
+padding: 20px;
+border-radius: 15px;
+}
+
+.image-contant h5 {
+font-size: 20px;
+}
+
+.image-contant h6 {
+font-size: 16px;
+}
+
+.image-contant p {
+font-size: 12px;
+}
+
+.service-item img {
+width: 18px;
+height: 18px;
+}
+}
+
+.Great-service {
+background-image: url(https://goinggreencs.com/wp-content/uploads/2020/03/AdobeStock_199161361-Cleaning-services-header-image-Resize.jpg);
+background-size: cover;
+background-position: center;
+width: 100%;
+padding: 15px;
+color: white;
+text-align: center;
+}
+
+
+.our h6 {
+color: gray;
+}
+
+.our h2 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+}
+
+.our p {
+width: 80%;
+margin: 0 auto;
+font-size: small;
+color: lightgray;
+}
+
+
+.home, .office, .window {
+padding: 15px;
+width: 300px;
+height: 150px;
+background-color: rgba(0, 128, 255, 0.8);
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 35px;
+text-align: center;
+}
+
+.home p, .office p, .window p {
+font-size: small;
+}
+
+
+.home-cleaning {
+display: flex;
+gap: 15px;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+.our p {
+width: 90%;
+font-size: 14px;
+}
+
+.home, .office, .window {
+width: 250px;
+height: auto;
+padding: 10px;
+}
+}
+
+@media (max-width: 480px) {
+.our h2 {
+font-size: 1.5rem;
+}
+
+.home, .office, .window {
+width: 90%;
+padding: 10px;
+margin: 10px auto;
+}
+
+.home-cleaning {
+flex-direction: column;
+gap: 10px;
+}
+
+.our p {
+font-size: 12px;
+width: 100%;
+}
+}
+
+.members {
+text-align: center;
+padding: 20px;
+}
+
+.Team h6 {
+color: gray;
+}
+
+.Team h2 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Team p {
+width: 80%;
+margin: 0 auto;
+font-size: small;
+color: gray;
+}
+
+
+.team-guys {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+
+.team-guys img {
+border-radius: 15px;
+width: 250px;
+height: 350px;
+}
+
+
+.name {
+display: flex;
+gap: 10%;
+justify-content: center;
+align-items: center;
+font-size: larger;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+.Team p {
+width: 90%;
+font-size: 14px;
+}
+
+.team-guys img {
+width: 200px;
+height: 300px;
+}
+
+.name h6 {
+font-size: medium;
+}
+}
+
+@media (max-width: 480px) {
+
+.team-guys {
+flex-direction: column;
+gap: 10px;
+}
+
+.team-guys img {
+width: 90%;
+height: auto;
+}
+
+.name {
+flex-direction: column;
+gap: 5px;
+font-size: medium;
+}
+
+.Team h2 {
+font-size: 1.5rem;
+}
+
+.Team p {
+font-size: small;
+width: 100%;
+}
+}
+
+.play {
+margin-left: 1%;
+margin-top: 10%;
+width: 35px;
+height: 35px;
+background-color: aqua;
+padding: 10px;
+border-radius: 50%;
+}
+.vde-img {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.vde-img p {
+color: white;
+font-size: small;
+}
+.vde-img h2 {
+color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.call {
+background-color: aqua;
+margin-top: 10px;
+padding: 8px 16px;
+font-size: 1rem;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.video {
+background-image: url('https://www.selfhelpelderly.org/wp-content/uploads/2020/04/bigstock-Cleaning-Services-Concept-Th-344386591.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 300px;
+border-radius: 50px;
+}
+
+
+@media (max-width: 600px) {
+.video {
+height: 200px;
+border-radius: 10px;
+}
+.play {
+width: 25px;
+height: 25px;
+padding: 5px;
+margin-top: 5%;
+}
+.vde-img p {
+font-size: 0.8rem;
+}
+.vde-img h2 {
+font-size: 1.2rem;
+}
+.call {
+font-size: 0.9rem;
+padding: 6px 12px;
+margin-top: 8px;
+}
+}
+
+
+.review {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 15px;
+}
+.customer-review {
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+text-align: center;
+background-color: aqua;
+width: auto;
+height: auto;
+padding: 45px;
+border-radius: 30px;
+}
+.customer-review h4 {
+font-size: 1rem;
+margin: 5px 0;
+color: white;
+}
+
+
+@media (max-width: 600px) {
+.review {
+padding: 10px;
+}
+.customer-review {
+flex-direction: column;
+gap: 15px;
+}
+.customer-review h4 {
+font-size: 0.9rem;
+}
+.customer-review img {
+width: 30px;
+height: 30px;
+}
+}
+.recent-review p{
+
+color: gray;
+font-size: small;
+}
+.news{
+text-align: center;
+}
+.recent-review p{
+align-items: center;
+justify-content: center;
+}
+.recent-review h2{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:30px;
+}
+.recent-review h6{
+color: gray;
+}
+.cleaning-image{
+text-align: center;
+gap: 10px;
+
+}
+.cleaning-image img{
+border-radius: 20px;
+}
+
+.review-contant {
+display: flex;
+justify-content: center;
+gap: 15px;
+text-align: center;
+}
+.ceo, .accounting, .lawyer {
+width: 350px;
+height: auto;
+background-color: rgb(208, 230, 230);
+padding: 35px;
+border-radius: 30px;
+gap: 15px;
+}
+.ceo p, .accounting p, .lawyer p {
+color: gray;
+font-size: small;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ceo h5, .accounting h5, .lawyer h5 {
+width: 300px;
+color: gray;
+}
+
+
+@media (max-width: 600px) {
+.review-contant {
+flex-direction: column;
+align-items: center;
+gap: 20px;
+padding: 10px;
+}
+.ceo, .accounting, .lawyer {
+width: 100%;
+max-width: 300px;
+padding: 20px;
+}
+.ceo h5, .accounting h5, .lawyer h5 {
+width: 100%;
+}
+.ceo p, .accounting p, .lawyer p, .ceo h5, .accounting h5, .lawyer h5 {
+font-size: 0.9rem;
+}
+}
+
+.rights-reserved {
+display: flex;
+justify-content: space-around;
+padding: 45px;
+background-color:rgb(188, 182, 174);
+color: white;
+width: 100%;
+height: auto;
+}
+.rights-reserved .logo, .touch, .quick, .our-letter {
+width: 23%;
+}
+.logo img {
+border-radius: 10px;
+}
+.logo p, .touch p, .our-letter p {
+font-size: 0.9rem;
+color: #E0E0E0;
+}
+.quick a {
+display: block;
+color: #E0E0E0;
+text-decoration: none;
+margin: 5px 0;
+}
+.quick a:hover {
+color: gray; 
+}
+.our-letter input {
+padding: 8px;
+margin-top: 10px;
+border: none;
+border-radius: 5px;
+width: 70%;
+}
+.our-letter button {
+padding: 8px 12px;
+margin-left: 5px;
+border: none;
+border-radius: 5px;
+background-color: gray;
+color: black;
+cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+.rights-reserved {
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 20px;
+}
+.rights-reserved .logo, .touch, .quick, .our-letter {
+width: 100%;
+margin-bottom: 20px;
+}
+.logo img {
+width: 80px;
+height: 80px;
+}
+.logo p, .touch p, .our-letter p {
+font-size: 0.85rem;
+}
+.quick a {
+font-size: 0.9rem;
+}
+.our-letter input {
+width: 80%;
+font-size: 0.85rem;
+}
+.our-letter button {
+font-size: 0.85rem;
+padding: 8px 10px;
+}
+}
+rights-reserved {
+display: flex;
+justify-content: space-between;
+text-align: left;
+padding: 45px;
+background-color: #4A4545;
+color: #f0f0f0;
+width: 100%;
+gap: 20px;
+flex-wrap: wrap;
+}
+.logo img {
+width: 80px;
+height: 80px;
+border-radius: 10px;
+}
+.logo p {
+font-size: 0.9rem;
+margin-top: 10px;
+color: #d3d3d3;
+}
+.touch h3, .our-letter h3 {
+color: white;
+}
+.quick a {
+display: block;
+margin: 5px 0;
+color: gray;
+text-decoration: none;
+}
+.quick a:hover {
+color: #ffffff;
+}
+.our-letter input {
+width: 80%;
+padding: 8px;
+margin-top: 10px;
+border-radius: 5px;
+border: none;
+}
+.our-letter button {
+padding: 8px 12px;
+margin-top: 10px;
+background-color:gray;
+color: #333;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.our-letter button:hover {
+background-color:gray;
+}
+
+
+@media (max-width: 600px) {
+.rights-reserved {
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 20px;
+height: auto;
+}
+.logo img {
+width: 60px;
+height: 60px;
+}
+.logo, .touch, .quick, .our-letter {
+width: 100%;
+max-width: 300px;
+margin-bottom: 15px;
+}
+.our-letter input {
+width: 90%;
+}
+}
+.rights{
+display: flex;
+}
